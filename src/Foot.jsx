@@ -5,7 +5,7 @@ import { Facebook, Linkedin, Volleyball, Youtube } from "lucide-react";
 export default function Foot() {
   return (
     <>
-        <div className=" w-full h-[30vh] border border-[rgba(20,10,34,1)] flex justify-center items-center">
+        <div className=" w-full h-[30vh] border border-[rgba(20,10,34,1)] xxl:flex justify-center items-center ssm:hidden">
             <div className=" w-[40rem] h-full flex justify-center items-center text-white">
                 <div className=" space-y-5">
                     <span className="text-3xl font-semibold">Digimax</span> 
@@ -78,8 +78,8 @@ export default function Foot() {
                 </section>
             </div>
         </div>
-        <div className=" w-full h-[70px] text-white flex justify-between items-center px-20">
-            <section className=" flex justify-center items-center text-[rgb(78,70,94)]">
+        <div className=" w-full h-[70px] text-white xxl:flex justify-between items-center px-20 ssm:block ssm:text-xs ssm:w-full">
+            <section className=" flex justify-center items-center text-[rgb(78,70,94)] ssm:w-full">
                 Copyright &copy; Digimax. All rights reserved. Developed by PrinceDawn
             </section>
             <section className=" flex justify-center items-center gap-5 text-[rgb(78,70,94)]">

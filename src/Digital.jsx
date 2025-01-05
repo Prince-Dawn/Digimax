@@ -8,11 +8,11 @@ export default function Digital() {
     }
   return (
     <>
-        <div className=" w-full h-[70vh] bg-cover bg-top mt-24 relative" style={style}>
-            <div className="w-[45rem] border border-[rgb(42,38,55)] text-white h-[20rem] py-7 px-6 space-y-6 rounded-xl bg-gradient-to-t from-[rgb(20,8,32)] to-[rgba(40,32,55,0.8)] absolute -bottom-[5rem] left-[10rem]">
-                <span className=" text-4xl font-bold ">
+        <div className="  xxl:w-full xxl:h-[70vh] xxl:bg-cover xxl:bg-top xxl:mt-24 xxl:relative " style={style} >
+            <div className="xxl:w-[45rem] xxl:border xxl:border-[rgb(42,38,55)] text-white xxl:h-[20rem] py-7 px-6 space-y-6 rounded-xl bg-gradient-to-t from-[rgb(20,8,32)] to-[rgba(40,32,55,0.8)] xxl:absolute xxl:-bottom-[5rem] xxl:left-[10rem] ssm:static ssm:w-full ssm:h-fit ssm:bg-none">
+                <span className=" xxl:text-4xl font-bold ssm:text-2xl">
                     Pioneering Digital Excellence: <br />
-                    Discover th Digimax <br />
+                    Discover the Digimax <br className="xxl:static ssm:hidden" />
                     Advantage.
                 </span>
 
