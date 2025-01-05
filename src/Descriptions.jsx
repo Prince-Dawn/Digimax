@@ -4,7 +4,7 @@ import { Camera, MonitorUp, Shield, Target } from 'lucide-react';
 export default function Descriptions() {
   return (
     <>
-        <div className="xxl:flex xxl:flex-row xxl:justify-start xxl:items-center xxl:h-[70vh] w-full ssm:block ssm:h-[100rem] ssm:space-y-5 ssm:border">
+        <div className="xxl:flex xxl:flex-row xxl:justify-start xxl:items-center xxl:h-[70vh] w-full ssm:block ssm:h-[100rem] ssm:space-y-5">
             <div className=" xxl:w-[60%] xxl:h-full xxl:flex xxl:justify-center items-center ssm:w-full ssm:px-5">
                 <div className=" text-purple-200 space-y-7">
                     <span className="text-4xl">Descriptions</span>

@@ -5,7 +5,7 @@ import { Layers, MessageCircle, Newspaper } from "lucide-react";
 export default function Works() {
   return (
     <>
-        <div className=" xxl:w-full xxl:flex-row  xxl:h-[80vh] xxl:flex xxl:flex-wrap xxl:items-center xxl:justify-center ssm:w-full ssm:flex-col ssm:h-[85rem] ssm:space-y-5 ssm:border">
+        <div className=" xxl:w-full xxl:flex-row  xxl:h-[80vh] xxl:flex xxl:flex-wrap xxl:items-center xxl:justify-center ssm:w-full ssm:flex-col ssm:h-[85rem] ssm:space-y-5 ">
             <div className=" xxl:w-full text-center text-4xl text-white ssm:w-full">
                 <span className=" text-xl text-[rgb(255,140,193)] ">HOW IT WORKS</span><br />
                 Unlocking Astonishing Results with Just 3 <br /> Simple Steps
