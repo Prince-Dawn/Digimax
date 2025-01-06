@@ -52,6 +52,8 @@ export default function Hero() {
                     <input type="button" value="GET STARTED" className=" bg-gradient-to-r from-[rgb(175,122,254)] to-[rgb(255,140,193)] w-[150px] h-[40px] rounded-3xl" />
                 </div>
             </div>
+
+            
             <div className="xxl:w-full h-[100%] xxl:flex xxl:flex-row xxl:justify-center xxl:items-center ssm:flex-col">
                 <div className="xxl:h-full xxl:w-1/2 xxl:flex xxl:justify-center xxl:items-center xxl:flex-wrap ssm:w-full  ssm:justify-start ssm:items-start ssm:px-5 ssm:pt-[10%]">
                     <div className=" space-y-7 ssm:h-[fit-content] py-5">
