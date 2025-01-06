@@ -31,7 +31,7 @@ export default function Hero() {
   return (
     <>
         <div className="xxl:w-full xxl:h-[100vh] xxl:pt-2 ssm:h-[52rem]">
-            <div className="xxl:flex xxl:justify-between items-center xxl:flex-row xxl:h-[10%] xxl:px-14 text-white border-b-[0.1px] border-purple-500 ssm:text-center ssm:h-[6%] ssm:flex ssm:items-center ssm:justify-center ssm:fixed ssm:top-0 ssm:w-full bg-[rgb(10,0,24)]">
+            <div className="xxl:flex xxl:justify-between items-center xxl:flex-row xxl:h-[10%] xxl:px-14 text-white border-b-[0.1px] border-purple-500 ssm:text-center ssm:h-[6%] ssm:flex ssm:items-center ssm:justify-center xxl:static ssm:fixed ssm:top-0 ssm:w-full bg-[rgb(10,0,24)]">
                 <div className=" xxl:text-4xl xxl:w-[20%] ssm:text-3xl ssm:flex ssm:justify-around ssm:items-center ssm:w-full ">
                     <button type="submit" id="ham" className="xxl:hidden ssm:flex" >
                         <Menu />
