@@ -1,22 +1,13 @@
 // import { BrowserRouter } from "react-router"
 import './App.css'
-import Descriptions from './Descriptions'
-import Digital from './Digital'
-import Foot from './Foot'
-import Hero from './Hero'
-import Testimonial from './Testimonial'
-import Works from './Works'
+import Page from './Components/Pages/Page'
+
 
 
 function App() {
   return (
     <>
-      <Hero/>
-      <Descriptions/>
-      <Works/>
-      <Digital/>
-      <Testimonial/>
-      <Foot/>
+      <Page/>
     </>
   )
 }
